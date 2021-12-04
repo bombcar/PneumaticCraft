@@ -92,7 +92,7 @@ public class Forestry implements IThirdParty{
     @Override
     public void clientInit(){}
 
-    public static class FarmLogicFire extends FarmLogicPlasticCustomEarth{
+    public static abstract class FarmLogicFire extends FarmLogicPlasticCustomEarth{
         public FarmLogicFire(IFarmHousing housing) throws Throwable{
             super(housing);
         }

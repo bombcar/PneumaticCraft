@@ -24,7 +24,7 @@ import forestry.api.farming.IFarmComponent;
 import forestry.api.farming.IFarmHousing;
 import forestry.api.farming.IFarmLogic;
 
-public class FarmLogicSquid implements IFarmLogic{
+public abstract class FarmLogicSquid implements IFarmLogic{
     private final IFarmHousing housing;
     private IIcon icon;
     private final FarmablePlastic farmable = new FarmablePlastic(Blockss.squidPlant);
